@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462907BF1F4184CE0088E7AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 462907BE1F4184CE0088E7AD /* main.m */; };
+		462907C21F4184CE0088E7AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 462907C11F4184CE0088E7AD /* AppDelegate.m */; };
+		462907C51F4184CE0088E7AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462907C41F4184CE0088E7AD /* ViewController.m */; };
+		462907C81F4184CE0088E7AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462907C61F4184CE0088E7AD /* Main.storyboard */; };
+		462907CA1F4184CE0088E7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462907C91F4184CE0088E7AD /* Assets.xcassets */; };
+		462907CD1F4184CE0088E7AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462907CB1F4184CE0088E7AD /* LaunchScreen.storyboard */; };
+		462907D81F4184CE0088E7AD /* AudiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462907D71F4184CE0088E7AD /* AudiTests.m */; };
+		462907E31F4184CE0088E7AD /* AudiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462907E21F4184CE0088E7AD /* AudiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		462907D41F4184CE0088E7AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462907B21F4184CE0088E7AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462907B91F4184CE0088E7AD;
+			remoteInfo = Audi;
+		};
+		462907DF1F4184CE0088E7AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462907B21F4184CE0088E7AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462907B91F4184CE0088E7AD;
+			remoteInfo = Audi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		462907BA1F4184CE0088E7AD /* Audi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		462907BE1F4184CE0088E7AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		462907C01F4184CE0088E7AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		462907C11F4184CE0088E7AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		462907C31F4184CE0088E7AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		462907C41F4184CE0088E7AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		462907C71F4184CE0088E7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462907C91F4184CE0088E7AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462907CC1F4184CE0088E7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		462907CE1F4184CE0088E7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462907D31F4184CE0088E7AD /* AudiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		462907D71F4184CE0088E7AD /* AudiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiTests.m; sourceTree = "<group>"; };
+		462907D91F4184CE0088E7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462907DE1F4184CE0088E7AD /* AudiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		462907E21F4184CE0088E7AD /* AudiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiUITests.m; sourceTree = "<group>"; };
+		462907E41F4184CE0088E7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462907B71F4184CE0088E7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462907D01F4184CE0088E7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462907DB1F4184CE0088E7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462907B11F4184CE0088E7AD = {
+			isa = PBXGroup;
+			children = (
+				462907BC1F4184CE0088E7AD /* Audi */,
+				462907D61F4184CE0088E7AD /* AudiTests */,
+				462907E11F4184CE0088E7AD /* AudiUITests */,
+				462907BB1F4184CE0088E7AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462907BB1F4184CE0088E7AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462907BA1F4184CE0088E7AD /* Audi.app */,
+				462907D31F4184CE0088E7AD /* AudiTests.xctest */,
+				462907DE1F4184CE0088E7AD /* AudiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462907BC1F4184CE0088E7AD /* Audi */ = {
+			isa = PBXGroup;
+			children = (
+				462907C01F4184CE0088E7AD /* AppDelegate.h */,
+				462907C11F4184CE0088E7AD /* AppDelegate.m */,
+				462907C31F4184CE0088E7AD /* ViewController.h */,
+				462907C41F4184CE0088E7AD /* ViewController.m */,
+				462907C61F4184CE0088E7AD /* Main.storyboard */,
+				462907C91F4184CE0088E7AD /* Assets.xcassets */,
+				462907CB1F4184CE0088E7AD /* LaunchScreen.storyboard */,
+				462907CE1F4184CE0088E7AD /* Info.plist */,
+				462907BD1F4184CE0088E7AD /* Supporting Files */,
+			);
+			path = Audi;
+			sourceTree = "<group>";
+		};
+		462907BD1F4184CE0088E7AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462907BE1F4184CE0088E7AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		462907D61F4184CE0088E7AD /* AudiTests */ = {
+			isa = PBXGroup;
+			children = (
+				462907D71F4184CE0088E7AD /* AudiTests.m */,
+				462907D91F4184CE0088E7AD /* Info.plist */,
+			);
+			path = AudiTests;
+			sourceTree = "<group>";
+		};
+		462907E11F4184CE0088E7AD /* AudiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				462907E21F4184CE0088E7AD /* AudiUITests.m */,
+				462907E41F4184CE0088E7AD /* Info.plist */,
+			);
+			path = AudiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462907B91F4184CE0088E7AD /* Audi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462907E71F4184CE0088E7AD /* Build configuration list for PBXNativeTarget "Audi" */;
+			buildPhases = (
+				462907B61F4184CE0088E7AD /* Sources */,
+				462907B71F4184CE0088E7AD /* Frameworks */,
+				462907B81F4184CE0088E7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Audi;
+			productName = Audi;
+			productReference = 462907BA1F4184CE0088E7AD /* Audi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		462907D21F4184CE0088E7AD /* AudiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462907EA1F4184CE0088E7AD /* Build configuration list for PBXNativeTarget "AudiTests" */;
+			buildPhases = (
+				462907CF1F4184CE0088E7AD /* Sources */,
+				462907D01F4184CE0088E7AD /* Frameworks */,
+				462907D11F4184CE0088E7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				462907D51F4184CE0088E7AD /* PBXTargetDependency */,
+			);
+			name = AudiTests;
+			productName = AudiTests;
+			productReference = 462907D31F4184CE0088E7AD /* AudiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		462907DD1F4184CE0088E7AD /* AudiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462907ED1F4184CE0088E7AD /* Build configuration list for PBXNativeTarget "AudiUITests" */;
+			buildPhases = (
+				462907DA1F4184CE0088E7AD /* Sources */,
+				462907DB1F4184CE0088E7AD /* Frameworks */,
+				462907DC1F4184CE0088E7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				462907E01F4184CE0088E7AD /* PBXTargetDependency */,
+			);
+			name = AudiUITests;
+			productName = AudiUITests;
+			productReference = 462907DE1F4184CE0088E7AD /* AudiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462907B21F4184CE0088E7AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Larry;
+				TargetAttributes = {
+					462907B91F4184CE0088E7AD = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					462907D21F4184CE0088E7AD = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 462907B91F4184CE0088E7AD;
+					};
+					462907DD1F4184CE0088E7AD = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 462907B91F4184CE0088E7AD;
+					};
+				};
+			};
+			buildConfigurationList = 462907B51F4184CE0088E7AD /* Build configuration list for PBXProject "Audi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462907B11F4184CE0088E7AD;
+			productRefGroup = 462907BB1F4184CE0088E7AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462907B91F4184CE0088E7AD /* Audi */,
+				462907D21F4184CE0088E7AD /* AudiTests */,
+				462907DD1F4184CE0088E7AD /* AudiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462907B81F4184CE0088E7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462907CD1F4184CE0088E7AD /* LaunchScreen.storyboard in Resources */,
+				462907CA1F4184CE0088E7AD /* Assets.xcassets in Resources */,
+				462907C81F4184CE0088E7AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462907D11F4184CE0088E7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462907DC1F4184CE0088E7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462907B61F4184CE0088E7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462907C51F4184CE0088E7AD /* ViewController.m in Sources */,
+				462907C21F4184CE0088E7AD /* AppDelegate.m in Sources */,
+				462907BF1F4184CE0088E7AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462907CF1F4184CE0088E7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462907D81F4184CE0088E7AD /* AudiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462907DA1F4184CE0088E7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462907E31F4184CE0088E7AD /* AudiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		462907D51F4184CE0088E7AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462907B91F4184CE0088E7AD /* Audi */;
+			targetProxy = 462907D41F4184CE0088E7AD /* PBXContainerItemProxy */;
+		};
+		462907E01F4184CE0088E7AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462907B91F4184CE0088E7AD /* Audi */;
+			targetProxy = 462907DF1F4184CE0088E7AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		462907C61F4184CE0088E7AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462907C71F4184CE0088E7AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462907CB1F4184CE0088E7AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462907CC1F4184CE0088E7AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462907E51F4184CE0088E7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		462907E61F4184CE0088E7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462907E81F4184CE0088E7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Audi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.Audi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		462907E91F4184CE0088E7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Audi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.Audi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		462907EB1F4184CE0088E7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AudiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audi.app/Audi";
+			};
+			name = Debug;
+		};
+		462907EC1F4184CE0088E7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AudiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audi.app/Audi";
+			};
+			name = Release;
+		};
+		462907EE1F4184CE0088E7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AudiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Audi;
+			};
+			name = Debug;
+		};
+		462907EF1F4184CE0088E7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AudiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Audi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462907B51F4184CE0088E7AD /* Build configuration list for PBXProject "Audi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462907E51F4184CE0088E7AD /* Debug */,
+				462907E61F4184CE0088E7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462907E71F4184CE0088E7AD /* Build configuration list for PBXNativeTarget "Audi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462907E81F4184CE0088E7AD /* Debug */,
+				462907E91F4184CE0088E7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		462907EA1F4184CE0088E7AD /* Build configuration list for PBXNativeTarget "AudiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462907EB1F4184CE0088E7AD /* Debug */,
+				462907EC1F4184CE0088E7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		462907ED1F4184CE0088E7AD /* Build configuration list for PBXNativeTarget "AudiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462907EE1F4184CE0088E7AD /* Debug */,
+				462907EF1F4184CE0088E7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462907B21F4184CE0088E7AD /* Project object */;
+}
