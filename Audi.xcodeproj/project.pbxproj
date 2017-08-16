@@ -15,6 +15,14 @@
 		462907CD1F4184CE0088E7AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462907CB1F4184CE0088E7AD /* LaunchScreen.storyboard */; };
 		462907D81F4184CE0088E7AD /* AudiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462907D71F4184CE0088E7AD /* AudiTests.m */; };
 		462907E31F4184CE0088E7AD /* AudiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462907E21F4184CE0088E7AD /* AudiUITests.m */; };
+		46E315BC1F42BDD300E7E829 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E315BA1F42BDD300E7E829 /* Interface.storyboard */; };
+		46E315BE1F42BDD300E7E829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E315BD1F42BDD300E7E829 /* Assets.xcassets */; };
+		46E315C51F42BDD300E7E829 /* AnswerDisplay Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 46E315C41F42BDD300E7E829 /* AnswerDisplay Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46E315CD1F42BDD300E7E829 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E315CC1F42BDD300E7E829 /* InterfaceController.m */; };
+		46E315D01F42BDD300E7E829 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E315CF1F42BDD300E7E829 /* ExtensionDelegate.m */; };
+		46E315D31F42BDD300E7E829 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E315D21F42BDD300E7E829 /* NotificationController.m */; };
+		46E315D51F42BDD300E7E829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E315D41F42BDD300E7E829 /* Assets.xcassets */; };
+		46E315D91F42BDD300E7E829 /* AnswerDisplay.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 46E315B81F42BDD300E7E829 /* AnswerDisplay.app */; };
 		A17571BD21B041268AA48F64 /* libPods-Audi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE7D6A44A2B8DF231911F7F /* libPods-Audi.a */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +41,46 @@
 			remoteGlobalIDString = 462907B91F4184CE0088E7AD;
 			remoteInfo = Audi;
 		};
+		46E315C61F42BDD300E7E829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462907B21F4184CE0088E7AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E315C31F42BDD300E7E829;
+			remoteInfo = "AnswerDisplay Extension";
+		};
+		46E315D71F42BDD300E7E829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462907B21F4184CE0088E7AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E315B71F42BDD300E7E829;
+			remoteInfo = AnswerDisplay;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46E315DF1F42BDD300E7E829 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46E315C51F42BDD300E7E829 /* AnswerDisplay Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E315E11F42BDD300E7E829 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				46E315D91F42BDD300E7E829 /* AnswerDisplay.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		462907BA1F4184CE0088E7AD /* Audi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +99,20 @@
 		462907DE1F4184CE0088E7AD /* AudiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		462907E21F4184CE0088E7AD /* AudiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiUITests.m; sourceTree = "<group>"; };
 		462907E41F4184CE0088E7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E315B81F42BDD300E7E829 /* AnswerDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnswerDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E315BB1F42BDD300E7E829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		46E315BD1F42BDD300E7E829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E315BF1F42BDD300E7E829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E315C41F42BDD300E7E829 /* AnswerDisplay Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AnswerDisplay Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E315CA1F42BDD300E7E829 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		46E315CB1F42BDD300E7E829 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		46E315CC1F42BDD300E7E829 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		46E315CE1F42BDD300E7E829 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		46E315CF1F42BDD300E7E829 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		46E315D11F42BDD300E7E829 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		46E315D21F42BDD300E7E829 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		46E315D41F42BDD300E7E829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E315D61F42BDD300E7E829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46F1A13A1F41EDE900297FF3 /* Audi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Audi.entitlements; sourceTree = "<group>"; };
 		4EE7D6A44A2B8DF231911F7F /* libPods-Audi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Audi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3412D59433550A8BC8CDEE2 /* Pods-Audi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Audi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Audi/Pods-Audi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +142,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46E315C11F42BDD300E7E829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,6 +158,8 @@
 				462907BC1F4184CE0088E7AD /* Audi */,
 				462907D61F4184CE0088E7AD /* AudiTests */,
 				462907E11F4184CE0088E7AD /* AudiUITests */,
+				46E315B91F42BDD300E7E829 /* AnswerDisplay */,
+				46E315C81F42BDD300E7E829 /* AnswerDisplay Extension */,
 				462907BB1F4184CE0088E7AD /* Products */,
 				C7C271A2E21BDD64E37323C9 /* Pods */,
 				55D9F876F695AB2A5D06D816 /* Frameworks */,
@@ -102,6 +172,8 @@
 				462907BA1F4184CE0088E7AD /* Audi.app */,
 				462907D31F4184CE0088E7AD /* AudiTests.xctest */,
 				462907DE1F4184CE0088E7AD /* AudiUITests.xctest */,
+				46E315B81F42BDD300E7E829 /* AnswerDisplay.app */,
+				46E315C41F42BDD300E7E829 /* AnswerDisplay Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +221,40 @@
 			path = AudiUITests;
 			sourceTree = "<group>";
 		};
+		46E315B91F42BDD300E7E829 /* AnswerDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				46E315BA1F42BDD300E7E829 /* Interface.storyboard */,
+				46E315BD1F42BDD300E7E829 /* Assets.xcassets */,
+				46E315BF1F42BDD300E7E829 /* Info.plist */,
+			);
+			path = AnswerDisplay;
+			sourceTree = "<group>";
+		};
+		46E315C81F42BDD300E7E829 /* AnswerDisplay Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46E315CB1F42BDD300E7E829 /* InterfaceController.h */,
+				46E315CC1F42BDD300E7E829 /* InterfaceController.m */,
+				46E315CE1F42BDD300E7E829 /* ExtensionDelegate.h */,
+				46E315CF1F42BDD300E7E829 /* ExtensionDelegate.m */,
+				46E315D11F42BDD300E7E829 /* NotificationController.h */,
+				46E315D21F42BDD300E7E829 /* NotificationController.m */,
+				46E315D41F42BDD300E7E829 /* Assets.xcassets */,
+				46E315D61F42BDD300E7E829 /* Info.plist */,
+				46E315C91F42BDD300E7E829 /* Supporting Files */,
+			);
+			path = "AnswerDisplay Extension";
+			sourceTree = "<group>";
+		};
+		46E315C91F42BDD300E7E829 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46E315CA1F42BDD300E7E829 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		55D9F876F695AB2A5D06D816 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,10 +285,12 @@
 				462907B81F4184CE0088E7AD /* Resources */,
 				A67EB6250D07024F176D16A7 /* [CP] Embed Pods Frameworks */,
 				780CFAB3CD54AA0743DE93E2 /* [CP] Copy Pods Resources */,
+				46E315E11F42BDD300E7E829 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				46E315D81F42BDD300E7E829 /* PBXTargetDependency */,
 			);
 			name = Audi;
 			productName = Audi;
@@ -225,6 +333,40 @@
 			productReference = 462907DE1F4184CE0088E7AD /* AudiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		46E315B71F42BDD300E7E829 /* AnswerDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E315E01F42BDD300E7E829 /* Build configuration list for PBXNativeTarget "AnswerDisplay" */;
+			buildPhases = (
+				46E315B61F42BDD300E7E829 /* Resources */,
+				46E315DF1F42BDD300E7E829 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E315C71F42BDD300E7E829 /* PBXTargetDependency */,
+			);
+			name = AnswerDisplay;
+			productName = AnswerDisplay;
+			productReference = 46E315B81F42BDD300E7E829 /* AnswerDisplay.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		46E315C31F42BDD300E7E829 /* AnswerDisplay Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E315DE1F42BDD300E7E829 /* Build configuration list for PBXNativeTarget "AnswerDisplay Extension" */;
+			buildPhases = (
+				46E315C01F42BDD300E7E829 /* Sources */,
+				46E315C11F42BDD300E7E829 /* Frameworks */,
+				46E315C21F42BDD300E7E829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnswerDisplay Extension";
+			productName = "AnswerDisplay Extension";
+			productReference = 46E315C41F42BDD300E7E829 /* AnswerDisplay Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -254,6 +396,16 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 462907B91F4184CE0088E7AD;
 					};
+					46E315B71F42BDD300E7E829 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NS9E2DSK82;
+						ProvisioningStyle = Automatic;
+					};
+					46E315C31F42BDD300E7E829 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NS9E2DSK82;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 462907B51F4184CE0088E7AD /* Build configuration list for PBXProject "Audi" */;
@@ -272,6 +424,8 @@
 				462907B91F4184CE0088E7AD /* Audi */,
 				462907D21F4184CE0088E7AD /* AudiTests */,
 				462907DD1F4184CE0088E7AD /* AudiUITests */,
+				46E315B71F42BDD300E7E829 /* AnswerDisplay */,
+				46E315C31F42BDD300E7E829 /* AnswerDisplay Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +452,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E315B61F42BDD300E7E829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E315BE1F42BDD300E7E829 /* Assets.xcassets in Resources */,
+				46E315BC1F42BDD300E7E829 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E315C21F42BDD300E7E829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E315D51F42BDD300E7E829 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +552,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46E315C01F42BDD300E7E829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E315D01F42BDD300E7E829 /* ExtensionDelegate.m in Sources */,
+				46E315CD1F42BDD300E7E829 /* InterfaceController.m in Sources */,
+				46E315D31F42BDD300E7E829 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -393,6 +574,16 @@
 			isa = PBXTargetDependency;
 			target = 462907B91F4184CE0088E7AD /* Audi */;
 			targetProxy = 462907DF1F4184CE0088E7AD /* PBXContainerItemProxy */;
+		};
+		46E315C71F42BDD300E7E829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E315C31F42BDD300E7E829 /* AnswerDisplay Extension */;
+			targetProxy = 46E315C61F42BDD300E7E829 /* PBXContainerItemProxy */;
+		};
+		46E315D81F42BDD300E7E829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E315B71F42BDD300E7E829 /* AnswerDisplay */;
+			targetProxy = 46E315D71F42BDD300E7E829 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -411,6 +602,14 @@
 				462907CC1F4184CE0088E7AD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		46E315BA1F42BDD300E7E829 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E315BB1F42BDD300E7E829 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -583,6 +782,74 @@
 			};
 			name = Release;
 		};
+		46E315DA1F42BDD300E7E829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				IBSC_MODULE = AnswerDisplay_Extension;
+				INFOPLIST_FILE = AnswerDisplay/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbi.Audi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		46E315DB1F42BDD300E7E829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = AnswerDisplay_Extension;
+				INFOPLIST_FILE = AnswerDisplay/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbi.Audi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		46E315DC1F42BDD300E7E829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				INFOPLIST_FILE = "AnswerDisplay Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbi.Audi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		46E315DD1F42BDD300E7E829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				INFOPLIST_FILE = "AnswerDisplay Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbi.Audi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -621,6 +888,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		46E315DE1F42BDD300E7E829 /* Build configuration list for PBXNativeTarget "AnswerDisplay Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E315DC1F42BDD300E7E829 /* Debug */,
+				46E315DD1F42BDD300E7E829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46E315E01F42BDD300E7E829 /* Build configuration list for PBXNativeTarget "AnswerDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E315DA1F42BDD300E7E829 /* Debug */,
+				46E315DB1F42BDD300E7E829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

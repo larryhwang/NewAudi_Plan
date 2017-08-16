@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import <WatchConnectivity/WatchConnectivity.h>
 
-@interface ViewController ()
+@interface ViewController ()<WCSessionDelegate>
 
 
 @property (weak, nonatomic) IBOutlet UILabel *InfoLabel;
@@ -22,9 +23,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-self.DataReques_Timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(DataRequest) userInfo:nil repeats:YES];
+   self.DataReques_Timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(DataRequest) userInfo:nil repeats:YES];
 
-
+    [self sendMsgTesT];
 }
 
 
@@ -43,9 +44,7 @@ self.DataReques_Timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self 
                                             NSDictionary *dataDic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
                                             if ([[dataDic objectForKey:@"sucess"] integerValue]==1) {
                                                 NSLog(@"接受到数据");
-                                                
-                                                
-                                                
+
                                                 //4.屏幕显示数据
                                             }else {
                                                 NSLog(@"无数据");
@@ -67,6 +66,27 @@ self.DataReques_Timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self 
 
 
 -(void)sendMsgToWatch:(NSArray *) answerArr {
+    
+    
+    
+    
+}
+
+
+-(void)sendMsgTesT {
+    
+    if ([WCSession isSupported]) {
+        /*创建Session单例*/
+        WCSession * session = [WCSession defaultSession];
+        /*指定Session的代理*/
+        session.delegate = self;
+        /*激活当前Session*/
+        [session activateSession];
+        /*通过Session发送相关数据(Context就表示想要传递给Watch的数据)*/
+        [session updateApplicationContext:@{@"name":@"FUCK"} error:nil];
+        
+        //[session updateApplicationContext:@{@"name":WcleanData} error:nil];
+    }
     
 }
 
