@@ -125,6 +125,8 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     /// Required - 注册 DeviceToken
     NSLog(@"This is device:%@",deviceToken);
     [JPUSHService registerDeviceToken:deviceToken];
+    [JPUSHService setAlias:@"Audi_Plan" completion:nil seq:1];
+    
 }
 
 

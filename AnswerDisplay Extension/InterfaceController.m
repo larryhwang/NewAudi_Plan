@@ -8,11 +8,15 @@
 
 #import "InterfaceController.h"
 #import <WatchConnectivity/WatchConnectivity.h>
+#import "TableCell.h"
+
+#define kCellType @"cell"
+
 
 @interface InterfaceController ()<WCSessionDelegate> {
      WCSession * session;
 }
-@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceLabel *TestInfoLab;
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceTable *table;
 
 @end
 
@@ -49,12 +53,17 @@
 
 - (IBAction)Action {
     
-    NSLog(@"WATCH_DATA:%@",session.receivedApplicationContext[@"name"]);
+    NSLog(@"WATCH_DATA:%@",session.receivedApplicationContext[@"data"]);
     //分离数据成为数组
-    
-    NSString *tempALl = session.receivedApplicationContext[@"name"];
-    [_TestInfoLab setText:tempALl];
-    
+
+    NSArray *arr = session.receivedApplicationContext[@"data"];
+    [_table setNumberOfRows:arr.count withRowType:kCellType];
+    for (int  i =0; arr.count>i; i++) {
+        NSDictionary *tmpDic = arr[i];
+        TableCell *row = [_table rowControllerAtIndex:i];
+        [row.NoLable setText:[tmpDic objectForKey:@"id_group"]];
+        [row.DDLable setText:[tmpDic objectForKey:@"answer"]];
+}
 }
 
 

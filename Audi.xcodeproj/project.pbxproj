@@ -23,6 +23,7 @@
 		46E315D31F42BDD300E7E829 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E315D21F42BDD300E7E829 /* NotificationController.m */; };
 		46E315D51F42BDD300E7E829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E315D41F42BDD300E7E829 /* Assets.xcassets */; };
 		46E315D91F42BDD300E7E829 /* AnswerDisplay.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 46E315B81F42BDD300E7E829 /* AnswerDisplay.app */; };
+		46E315E41F43DD2000E7E829 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E315E31F43DD2000E7E829 /* TableCell.m */; };
 		A17571BD21B041268AA48F64 /* libPods-Audi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE7D6A44A2B8DF231911F7F /* libPods-Audi.a */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +114,8 @@
 		46E315D21F42BDD300E7E829 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		46E315D41F42BDD300E7E829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46E315D61F42BDD300E7E829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E315E21F43DD2000E7E829 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		46E315E31F43DD2000E7E829 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
 		46F1A13A1F41EDE900297FF3 /* Audi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Audi.entitlements; sourceTree = "<group>"; };
 		4EE7D6A44A2B8DF231911F7F /* libPods-Audi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Audi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3412D59433550A8BC8CDEE2 /* Pods-Audi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Audi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Audi/Pods-Audi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -234,6 +237,8 @@
 		46E315C81F42BDD300E7E829 /* AnswerDisplay Extension */ = {
 			isa = PBXGroup;
 			children = (
+				46E315E21F43DD2000E7E829 /* TableCell.h */,
+				46E315E31F43DD2000E7E829 /* TableCell.m */,
 				46E315CB1F42BDD300E7E829 /* InterfaceController.h */,
 				46E315CC1F42BDD300E7E829 /* InterfaceController.m */,
 				46E315CE1F42BDD300E7E829 /* ExtensionDelegate.h */,
@@ -558,6 +563,7 @@
 			files = (
 				46E315D01F42BDD300E7E829 /* ExtensionDelegate.m in Sources */,
 				46E315CD1F42BDD300E7E829 /* InterfaceController.m in Sources */,
+				46E315E41F43DD2000E7E829 /* TableCell.m in Sources */,
 				46E315D31F42BDD300E7E829 /* NotificationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
