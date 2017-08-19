@@ -26,6 +26,8 @@
     //6秒一次
    self.DataReques_Timer = [NSTimer scheduledTimerWithTimeInterval:6.0 target:self selector:@selector(DataRequest) userInfo:nil repeats:YES];
 
+    
+    
 
 }
 
