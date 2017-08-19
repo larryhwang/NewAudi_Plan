@@ -63,8 +63,7 @@
         /*激活当前Session*/
         [session activateSession];
         /*通过Session发送相关数据(Context就表示想要传递给Watch的数据)*/
-        //        [session updateApplicationContext:@{@"name":@"FUCK"} error:nil];
-        
+
         [session updateApplicationContext:@{@"data":answerArr} error:nil];
         
     }
