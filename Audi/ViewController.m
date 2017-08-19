@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //6秒一次
    self.DataReques_Timer = [NSTimer scheduledTimerWithTimeInterval:6.0 target:self selector:@selector(DataRequest) userInfo:nil repeats:YES];
 
 
@@ -63,7 +63,6 @@
         /*激活当前Session*/
         [session activateSession];
         /*通过Session发送相关数据(Context就表示想要传递给Watch的数据)*/
-
         [session updateApplicationContext:@{@"data":answerArr} error:nil];
         
     }
